@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <link rel="stylesheet" href="colorstyle.css">
+</head>
+
+<body>
+    <h1 id="head1">Generate Random Colors</h1>
+    <div class="container">
+        <div class="colorbox" onmouseenter="generaterandomcolor();" onmouseleave="generaterandomcolor(); ">
+        </div>
+    </div>
+    <section class="colorpopup">
+        <div class="contentarea">
+            <h3>Color Code</h3>
+            <p id="sample">sample</p>
+            <p id="rgbcolor">rgba(0,0,0,0.0)</p>
+            <button id="btn-0k">OK</button>
+        </div>
+    </section>
+
+    <script src="colors.js"></script>
+</body>
+
+</html>

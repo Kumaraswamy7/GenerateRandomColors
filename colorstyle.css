@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#head1 {
+    text-align: center;
+}
+
+.container {
+    background-color: bisque;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.colorbox {
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    justify-self: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.displaypop {
+    /* background-color: azure; */
+    min-width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+}
+
+.contentarea {
+    display: none;
+}
+
+.origincontent {
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin: auto;
+    font-size: 1.5rem;
+    justify-self: center;
+    align-self: center;
+    background-color: aliceblue;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.origincontent h3 {
+    margin: 5px 20px;
+}
+
+.origincontent #sample {
+    background-color: rgba(0, 0, 0, 0.0);
+    display: inline;
+    width: 100px;
+    border-radius: 5px;
+    align-self: center;
+    color: black;
+}
+
+.origincontent #btn-0k {
+    padding: 5px 10px;
+    border-radius: 30px;
+    align-self: flex-end;
+}
+
+h1 {
+    margin: 5px 0;
+}
